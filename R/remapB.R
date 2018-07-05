@@ -149,7 +149,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'railway',
     'elementType': 'geometry',
     'stylers': {
-    'visibility': 'on'
+    'visibility': 'off'
     }
     },
     {
@@ -171,7 +171,7 @@ remapB = function(center = c(104.114129,37.550339),
     'elementType': 'all',
     'stylers': {
     'color': '#056197',
-    'visibility': 'on'
+    'visibility': 'off'
     }
     },
     {
