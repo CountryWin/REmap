@@ -126,14 +126,14 @@ remapB = function(center = c(104.114129,37.550339),
          styleJson: [
     {
     'featureType': 'water',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
     'color': '#044161'
     }
     },
     {
     'featureType': 'land',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
     'color': '#004981'
     }
@@ -147,9 +147,9 @@ remapB = function(center = c(104.114129,37.550339),
     },
     {
     'featureType': 'railway',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
@@ -171,7 +171,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'highway',
     'elementType': 'labels',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
@@ -192,7 +192,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'poi',
     'elementType': 'all',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
@@ -200,28 +200,28 @@ remapB = function(center = c(104.114129,37.550339),
     'elementType': 'all',
     'stylers': {
     'color': '#056197',
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
     'featureType': 'subway',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
     'featureType': 'manmade',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
     'featureType': 'local',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     },
     {
@@ -240,7 +240,7 @@ remapB = function(center = c(104.114129,37.550339),
     },
     {
     'featureType': 'building',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
     'color': '#1a5787'
     }
@@ -249,7 +249,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'label',
     'elementType': 'all',
     'stylers': {
-    'visibility': 'off'
+    'visibility': 'on'
     }
     }
     ]
