@@ -160,39 +160,10 @@ remapB = function(center = c(104.114129,37.550339),
     }
     },
     {
-    'featureType': 'highway',
-    'elementType': 'geometry.fill',
-    'stylers': {
-    'color': '#00FFFF',
-    'lightness': 1
-    }
-    },
-    {
-    'featureType': 'highway',
-    'elementType': 'labels',
-    'stylers': {
-    'visibility': 'on'
-    }
-    },
-    {
     'featureType': 'arterial',
     'elementType': 'geometry',
     'stylers': {
     'color': '#1f49d5'
-    }
-    },
-    {
-    'featureType': 'arterial',
-    'elementType': 'geometry.fill',
-    'stylers': {
-    'color': '#1f49d5'
-    }
-    },
-    {
-    'featureType': 'poi',
-    'elementType': 'all',
-    'stylers': {
-    'visibility': 'on'
     }
     },
     {
@@ -201,34 +172,6 @@ remapB = function(center = c(104.114129,37.550339),
     'stylers': {
     'color': '#056197',
     'visibility': 'on'
-    }
-    },
-    {
-    'featureType': 'subway',
-    'elementType': 'geometry',
-    'stylers': {
-    'visibility': 'on'
-    }
-    },
-    {
-    'featureType': 'manmade',
-    'elementType': 'geometry',
-    'stylers': {
-    'visibility': 'on'
-    }
-    },
-    {
-    'featureType': 'local',
-    'elementType': 'geometry',
-    'stylers': {
-    'visibility': 'on'
-    }
-    },
-    {
-    'featureType': 'arterial',
-    'elementType': 'labels',
-    'stylers': {
-    'visibility': 'off'
     }
     },
     {
@@ -243,13 +186,6 @@ remapB = function(center = c(104.114129,37.550339),
     'elementType': 'geometry',
     'stylers': {
     'color': '#000066'
-    }
-    },
-    {
-    'featureType': 'label',
-    'elementType': 'all',
-    'stylers': {
-    'visibility': 'on'
     }
     }
     ]
