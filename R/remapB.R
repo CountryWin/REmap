@@ -242,7 +242,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'building',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#04406F'
+    'color': '#000066'
     }
     },
     {
