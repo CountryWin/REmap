@@ -133,21 +133,30 @@ remapB = function(center = c(104.114129,37.550339),
     },
     {
     'featureType': 'land',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color': '#081734'
     }
     },
     {
     'featureType': 'boundary',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#064f85'
+    'color': '#8b8787',
+    'weight': '1',
+    'lightness': -29
     }
     },
     {
     'featureType': 'railway',
-    'elementType': 'all',
+    'elementType': 'geometry',
+    'stylers': {
+    'visibility': 'off'
+    }
+    },
+    {
+    'featureType': 'railway',
+    'elementType': 'labels',
     'stylers': {
     'visibility': 'off'
     }
@@ -156,7 +165,14 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'highway',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color': '#015B99'
+    }
+    },
+    {
+    'featureType': 'highway',
+    'elementType': 'labels',
+    'stylers': {
+    'visibility': 'off'
     }
     },
     {
@@ -178,14 +194,14 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'arterial',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color':'#003051'
     }
     },
     {
     'featureType': 'arterial',
-    'elementType': 'geometry.fill',
+    'elementType': 'labels',
     'stylers': {
-    'color': '#00508b'
+    'visibility': 'off'
     }
     },
     {
@@ -197,40 +213,53 @@ remapB = function(center = c(104.114129,37.550339),
     },
     {
     'featureType': 'green',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
-    'color': '#056197',
     'visibility': 'off'
     }
     },
     {
     'featureType': 'subway',
-    'elementType': 'all',
+    'elementType': 'geometry.stroke',
+    'stylers': {
+    'color': '#003051'
+    }
+    },
+    {
+    'featureType': 'subway',
+    'elementType': 'labels',
+    'stylers': {
+    'visibility': 'off'
+    }
+    },
+    {
+    'featureType': 'manmade',   
+    'elementType': 'geometry',
     'stylers': {
     'visibility': 'off'
     }
     },
     {
     'featureType': 'manmade',
-    'elementType': 'all',
+    'elementType': 'labels',
     'stylers': {
     'visibility': 'off'
     }
     },
     {
     'featureType': 'local',
-    'elementType': 'all',
+    'elementType': 'geometry',
     'stylers': {
     'visibility': 'off'
     }
     },
     {
-    'featureType': 'arterial',
+    'featureType': 'local',
     'elementType': 'labels',
     'stylers': {
     'visibility': 'off'
     }
-    },
+    }，
     {
     'featureType': 'boundary',
     'elementType': 'geometry.fill',
