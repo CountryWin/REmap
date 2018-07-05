@@ -135,7 +135,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'land',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color': '#081734'
     }
     },
     {
@@ -163,7 +163,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'highway',
     'elementType': 'geometry.fill',
     'stylers': {
-    'color': '#005b96',
+    'color': '#015B99',
     'lightness': 1
     }
     },
@@ -178,7 +178,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'arterial',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color': '#003051'
     }
     },
     {
@@ -242,7 +242,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'building',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#1a5787'
+    'color': '#04406F'
     }
     },
     {
