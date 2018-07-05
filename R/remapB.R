@@ -135,7 +135,7 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'land',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#081734'
+    'color': '#000066'
     }
     },
     {
@@ -156,14 +156,14 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'highway',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#004981'
+    'color': '#00FFFF'
     }
     },
     {
     'featureType': 'highway',
     'elementType': 'geometry.fill',
     'stylers': {
-    'color': '#015B99',
+    'color': '#00FFFF',
     'lightness': 1
     }
     },
