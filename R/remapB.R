@@ -128,14 +128,14 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'water',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#1A6BE6'
+    'color': '#3c8ff7'
     }
     },
     {
     'featureType': 'land',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#081734'
+    'color': '#00167f'
     }
     },
     {
@@ -178,14 +178,14 @@ remapB = function(center = c(104.114129,37.550339),
     'featureType': 'arterial',
     'elementType': 'geometry',
     'stylers': {
-    'color': '#00FFFF'
+    'color': '#1f49d5'
     }
     },
     {
     'featureType': 'arterial',
     'elementType': 'geometry.fill',
     'stylers': {
-    'color': '#00FFFF'
+    'color': '#1f49d5'
     }
     },
     {
